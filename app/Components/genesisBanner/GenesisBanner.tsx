@@ -125,7 +125,7 @@ const GenesisBanner = () => {
     };
 
     return (
-        <div className={styles.container} id="genesis">
+        <div className={styles.container} id="bitmun">
             <canvas ref={canvasRef} className={styles.canvas} />
 
             <motion.div
@@ -138,7 +138,7 @@ const GenesisBanner = () => {
                     <motion.div variants={itemVariants}>
                         <h1 className={styles.title}>
                         BITMUN
-                            <span className={styles.year}>2025</span>
+                            <span className={styles.year}>2026</span>
                         </h1>
                         <div className={styles.subtitle}>
                         The Ultimate Arena of Intellect

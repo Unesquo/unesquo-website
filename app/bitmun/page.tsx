@@ -12,18 +12,20 @@ import styles from './OurTeam.module.css';
 import Button from "../Components/bitmun/button/Button";
 import { FaCrown, FaUserCheck, FaBullhorn } from "react-icons/fa";
 import UnesquoLoading from '../Components/bitmun/loading/UnesquoLoading';
+import { toast } from 'react-toastify';
 
-const targetTime = '2025-01-18T08:00:00';
+const targetTime = '2026-01-23T08:00:00';
 
 const ExecutiveBoard = () => {
-  window.location.href = "https://docs.google.com/forms/d/1eVp8ZU2nT3HbObZ4bUUebC6mJLFieWTCVDLJy1ygFLM/edit";
+  toast.info("Executive Board Registration Forms are closed now.");
+  // window.location.href = "https://docs.google.com/forms/d/1eVp8ZU2nT3HbObZ4bUUebC6mJLFieWTCVDLJy1ygFLM/edit";
 
 };
 const DelegateRegistration = () => {
-  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeoo42Qp2L3tTAevlnV8BxCZsUdcbsAr5u88VB15b_x-B6sPg/viewform";
+  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdQOTz89SSdCKyTh4D-NPuX59bnT35nEmthNjmx5ySbt_wAKQ/viewform";
 };
 const CampusAmbassador = () => {
-  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeqN4PwaEVWdhxLSvBYTWZa2ZgKIQayfZ92hcE-eUjHJpOW1w/viewform";
+  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScS2sRR4VttICwmmtb0moy0elp2RgyoVnFa6DH901CRd52S5w/viewform";
 };
 
 const Bitmun = () => {

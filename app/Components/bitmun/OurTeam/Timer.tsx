@@ -235,7 +235,7 @@ const Timer = ({ targetTime }: TimerProps) => {
     >
       <TimerCard>
         <Title variants={itemVariants}>
-          BITMUN 25'
+          BITMUN'26
         </Title>
         <Subtitle variants={itemVariants}>
           Overcoming Differences
