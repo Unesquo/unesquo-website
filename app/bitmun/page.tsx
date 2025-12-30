@@ -12,12 +12,11 @@ import styles from './OurTeam.module.css';
 import Button from "../Components/bitmun/button/Button";
 import { FaCrown, FaUserCheck, FaBullhorn } from "react-icons/fa";
 import UnesquoLoading from '../Components/bitmun/loading/UnesquoLoading';
-import { toast } from 'react-toastify';
 
 const targetTime = '2026-01-23T08:00:00';
 
 const ExecutiveBoard = () => {
-  toast.info("Executive Board Registration Forms are closed now.");
+  alert("Applications closed, EB will be released soon!");
   // window.location.href = "https://docs.google.com/forms/d/1eVp8ZU2nT3HbObZ4bUUebC6mJLFieWTCVDLJy1ygFLM/edit";
 
 };
