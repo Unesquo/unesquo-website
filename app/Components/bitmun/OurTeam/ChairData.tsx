@@ -28,101 +28,128 @@ const sectionVariants = {
 
 const ChairPage: React.FC = () => {
   // Typed data arrays
-  const ungaData: PersonData[] = [
+  const ecofinData: PersonData[] = [
     {
       id: 1,
-      src: '/chair/Aishnit_Yadav.jpg',
+      src: '/bitmun25/AISHNIT_YADAV_chair_ecofin.png',
       name: 'Aishnit Yadav',
       position: 'CHAIR',
     },
     {
       id: 2,
-      src: '/chair/Diptesh_Banerjee.jpg',
-      name: 'Diptesh Banerjee',
-      position: 'VICECHAIR',
+      src: '/bitmun25/vyom_gupta_vice_chair_ecofin.png',
+      name: 'Vyom Gupta',
+      position: 'VICE CHAIR',
     },
     {
       id: 3,
-      src: '/images/webp/Shaurya.webp',
-      name: 'Shaurya Singh',
-      position: 'RAPPEUTER',
+      src: '/bitmun25/Varun_Gupta_Rapporteur_ECOFIN.png',
+      name: 'Varun Gupta',
+      position: 'RAPPORTEUR',
+    },
+  ];
+
+  const unhrcData: PersonData[] = [
+    {
+      id: 1,
+      src: '/bitmun25/Devayush_das_President_UNHRC.png',
+      name: 'Devayush Das',
+      position: 'PRESIDENT',
+    },
+    {
+      id: 2,
+      src: '/bitmun25/mohammad_ammar_Vice_President_UNHRC.png',
+      name: 'Mohammad Ammar',
+      position: 'VICE PRESIDENT',
+    },
+  ];
+
+  const aippmData: PersonData[] = [
+    {
+      id: 1,
+      src: '/bitmun25/LAKSHIT_TANDON_chair_AIPPM.png',
+      name: 'Lakshit Tandon',
+      position: 'CHAIR',
+    },
+    {
+      id: 2,
+      src: '/bitmun25/erapani_meenal_vice_chair_AIPPM.png',
+      name: 'Erapani Meenal',
+      position: 'VICE CHAIR',
+    },
+    {
+      id: 3,
+      src: '/bitmun25/raj_vardhan_roushan_Rapporteur_AIPPM.png',
+      name: 'Raj Vardhan Roushan',
+      position: 'RAPPORTEUR',
+    },
+  ];
+
+  const nitiAayogData: PersonData[] = [
+    {
+      id: 1,
+      src: '/bitmun25/NIKHIL_VERMA_Chair_Niti_Aayog.png',
+      name: 'Nikhil Verma',
+      position: 'CHAIR',
+    },
+    {
+      id: 2,
+      src: '/bitmun25/SAMINA_PARVEEN_Vice Chair_Niti_Aayog.png',
+      name: 'Samina Parveen',
+      position: 'VICE CHAIR',
+    },
+    {
+      id: 3,
+      src: '/bitmun25/Shourya_parihar_Rapporteur_Niti_Aayog.png',
+      name: 'Shourya Parihar',
+      position: 'RAPPORTEUR',
     },
   ];
 
   const warCabData: PersonData[] = [
     {
       id: 1,
-      src: '/chair/Pragyan_Sharma.jpeg',
-      name: 'Pragyan Sharma',
+      src: '/bitmun25/ADITYA_DUBEY_Chair_War_Cabinet.png',
+      name: 'Aditya Dubey',
       position: 'CHAIR',
     },
     {
       id: 2,
-      src: '/chair/Akshat_Raj_Sharma.JPG',
-      name: 'Akshat Raj Sharma',
-      position: 'VICECHAIR',
-    },
-  ];
-
-  const MomData: PersonData[] = [
-    {
-      id: 1,
-      src: '/images/webp/NikhilVerma.webp',
-      name: 'Nikhil Verma',
+      src: '/bitmun25/AMBUJ_MISHRA_Chair_War_Cabinet.png',
+      name: 'Ambuj Mishra',
       position: 'CHAIR',
-    },
-    {
-      id: 2,
-      src: '/images/webp/Aayushii.webp',
-      name: 'Aayushii Singh',
-      position: 'VICECHAIR',
     },
     {
       id: 3,
-      src: '/chair/siddhant.jpeg',
-      name: 'Siddhant Jagat',
-      position: 'Rappeuter',
-    },
-  ];
-
-  const jsipData: PersonData[] = [
-    {
-      id: 1,
-      src: '/chair/Avyakt_Mishra.jpg',
-      name: 'Avyakt Mishra',
-      position: 'SPEAKER',
-    },
-    {
-      id: 2,
-      src: '/images/webp/Ambuj.webp',
-      name: 'Ambuj Mishra',
-      position: 'DEPUTY SPEAKER',
+      src: '/bitmun25/SIDDHARTH_SHANKER_Co-chair_War_Cabinet.png',
+      name: 'Siddharth Shanker',
+      position: 'CO-CHAIR',
     },
   ];
 
   const pressData: PersonData[] = [
     {
       id: 1,
-      src: '/chair/Aditya_Dubey.jpg',
-      name: 'Aditya Dubey',
+      src: '/bitmun25/AADRITA_GOSWAMI_IP_Head_IP.png',
+      name: 'Aadrita Goswami',
       position: 'HEAD',
     },
     {
       id: 2,
-      src: '/images/webp/Khushi.webp',
-      name: 'Khushi Mandal',
+      src: '/bitmun25/PRIYANSHU_KUMAR_Editor-In-Chief_IP.png',
+      name: 'Priyanshu Kumar',
       position: 'EDITOR-IN-CHIEF',
     },
     {
       id: 3,
-      src: '/images/webp/Amiya.webp',
-      name: 'Amiya Jha',
+      src: '/bitmun25/RAJNISH_Photographer-In-Chief_IP.png',
+      name: 'Rajnish',
       position: 'PHOTOGRAPHER-IN-CHIEF',
     },
     {
       id: 4,
-      src: '/images/webp/HarshN.webp',
-      name: 'Harsh Narayan',
+      src: '/bitmun25/shruti_tiwari_Head_Caricaturist_IP.png',
+      name: 'Shruti Tiwari',
       position: 'HEAD CARICATURIST',
     },
   ];
@@ -135,21 +162,21 @@ const ChairPage: React.FC = () => {
         exit={{ opacity: 0 }}
         className={styles.container}
       >
-        <motion.header 
+        <motion.header
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
           className={styles.header}
         >
           <h1 className={styles.mainTitle}>
-            BITMUN 24&apos; Chairs
+            BITMUN 25&apos; Chairs
           </h1>
           <p className={styles.subtitle}>
             Celebrating the exceptional leadership driving our diplomatic discourse
           </p>
         </motion.header>
 
-        <motion.div 
+        <motion.div
           initial="hidden"
           animate="visible"
           variants={{
@@ -163,22 +190,61 @@ const ChairPage: React.FC = () => {
           }}
           className={styles.sectionsContainer}
         >
-          <motion.section 
-            variants={sectionVariants} 
-            className={styles.section} 
+          <motion.section
+            variants={sectionVariants}
+            className={styles.section}
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.6 }}
           >
             <motion.h2 variants={sectionVariants} className={styles.sectionTitle}>
-              UNGA
+              ECOFIN
             </motion.h2>
-            <Unga ungaData={ungaData} />
+            <Unga ungaData={ecofinData} />
           </motion.section>
 
-          <motion.section 
-            variants={sectionVariants} 
-            className={styles.section} 
+          <motion.section
+            variants={sectionVariants}
+            className={styles.section}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            transition={{ duration: 0.6 }}
+          >
+            <motion.h2 variants={sectionVariants} className={styles.sectionTitle}>
+              UNHRC
+            </motion.h2>
+            <WarCab warCabData={unhrcData} />
+          </motion.section>
+
+          <motion.section
+            variants={sectionVariants}
+            className={styles.section}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            transition={{ duration: 0.6 }}
+          >
+            <motion.h2 variants={sectionVariants} className={styles.sectionTitle}>
+              AIPPM
+            </motion.h2>
+            <Mom MomData={aippmData} />
+          </motion.section>
+
+          <motion.section
+            variants={sectionVariants}
+            className={styles.section}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            transition={{ duration: 0.6 }}
+          >
+            <motion.h2 variants={sectionVariants} className={styles.sectionTitle}>
+              Niti Aayog
+            </motion.h2>
+            <Jsip jsipData={nitiAayogData} />
+          </motion.section>
+
+          <motion.section
+            variants={sectionVariants}
+            className={styles.section}
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.6 }}
@@ -189,35 +255,9 @@ const ChairPage: React.FC = () => {
             <WarCab warCabData={warCabData} />
           </motion.section>
 
-          <motion.section 
-            variants={sectionVariants} 
-            className={styles.section} 
-            whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: 50 }}
-            transition={{ duration: 0.6 }}
-          >
-            <motion.h2 variants={sectionVariants} className={styles.sectionTitle}>
-              Ministry of Magic
-            </motion.h2>
-            <Mom MomData={MomData} />
-          </motion.section>
-
-          <motion.section 
-            variants={sectionVariants} 
-            className={styles.section} 
-            whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: 50 }}
-            transition={{ duration: 0.6 }}
-          >
-            <motion.h2 variants={sectionVariants} className={styles.sectionTitle}>
-              Joint Session of Indian Parliament
-            </motion.h2>
-            <Jsip jsipData={jsipData} />
-          </motion.section>
-
-          <motion.section 
-            variants={sectionVariants} 
-            className={styles.section} 
+          <motion.section
+            variants={sectionVariants}
+            className={styles.section}
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.6 }}

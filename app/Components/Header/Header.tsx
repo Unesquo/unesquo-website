@@ -89,7 +89,7 @@ function Header() {
           <li className="button genesis-button">
             <a
               className="button__StyledButton-sc-18iddzu-1 ixHxFg wrapper_special"
-              href="#genesis"
+              href="#bitmun"
               rel="noreferrer noopener"
             >
               <div className="btn special">
@@ -157,9 +157,9 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <div className="farewellBanner">
+      {/* <div className="farewellBanner">
         <FarewellBanner />
-      </div>
+      </div> */}
       <div className="header-content">
         <div className="text-content">
           <h1 className={abril.className}>

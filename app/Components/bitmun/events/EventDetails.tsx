@@ -11,27 +11,32 @@ const EventDetails: React.FC = () => {
 		},
 		{
 			image: "/images/Events/JSIP.webp",
-			title: "Joint Session of Indian Parliament",
-			description: "The committee undertakes a comprehensive review aiming to dissect the intricate mechanisms that govern international economic engagements, underscoring the significance of cultivating robust global relationships.As we meticulously navigate the complexities of trade, the nuanced integration of soft power principles becomes a focal point, shaping a diplomatic landscape that transcends mere transactional dynamics.",
+			title: "ECOFIN - Economic and Financial Affairs Committee",
+			description: "The Economic and Financial Affairs Committee focuses on global economic policies, financial regulations, and sustainable development. Delegates will engage in discussions about international trade, monetary systems, and economic cooperation to address pressing financial challenges facing the international community.",
 			registrationLink:"https://unstop.com/conferences/birla-institute-of-technology-model-united-nations-bitmun24-bit-mesra-ranchi-839214?lb=DP1Hq0R&utm_medium=Share&utm_source=shortUrl"
 		},
 		{
 			image: "/images/Events/MOM.webp",
-			title: "Ministry of Magic",
-			description: " As the ominous specter of Lord Voldemort looms large, the wizarding world finds itself at a crucial crossroads. In a bold endeavor, magical leaders embark on a mission to establish ties with the Muggle world, recognizing the urgency of solidarity in the face of an imminent threat. Amidst the growing darkness, a complex dance of diplomacy unfolds, as both magical and non-magical communities navigate the delicate path between secrecy and cooperation.",
+			title: "UNHRC - United Nations Human Rights Council",
+			description: "The United Nations Human Rights Council is dedicated to strengthening the promotion and protection of human rights around the globe. Delegates will address violations, develop international human rights standards, and work towards ensuring dignity, freedom, and justice for all individuals across nations.",
 			registrationLink:"https://unstop.com/conferences/birla-institute-of-technology-model-united-nations-bitmun24-bit-mesra-ranchi-839214?lb=DP1Hq0R&utm_medium=Share&utm_source=shortUrl"
 		},
 		{
 			image: "/images/Events/WarCabinet.webp",
 			title: "War Cabinet",
-			description: " Delve into the intricacies of geopolitical maneuvering, forging alliances, and making pivotal decisions that could reshape the course of history. In this intense diplomatic simulation, the war cabinet emerges as a crucible of leadership and strategic thinking, as delegates navigate the challenges of a world in conflict, seeking resolutions that transcend the echoes of the past.",
+			description: "Delve into the intricacies of geopolitical maneuvering, forging alliances, and making pivotal decisions that could reshape the course of history. In this intense diplomatic simulation, the war cabinet emerges as a crucible of leadership and strategic thinking, as delegates navigate the challenges of a world in conflict, seeking resolutions that transcend the echoes of the past.",
 			registrationLink:"https://unstop.com/conferences/birla-institute-of-technology-model-united-nations-bitmun24-bit-mesra-ranchi-839214?lb=DP1Hq0R&utm_medium=Share&utm_source=shortUrl"
 		},
 		{
 			image: "/images/Events/UNGAD.webp",
-			title:
-				"UNGA",
-			description: "The key objective of this committee is examining the channels through which both monetary and non-monetary assistance reach terrorist organizations. The Disarmament and International Security Committee, as the first committee of the General Assembly, concentrates on issues of disarmament, global challenges, and threats to peace that have widespread implications. ",
+			title: "AIPPM - All India Political Parties Meet",
+			description: "The All India Political Parties Meet brings together diverse political perspectives to address critical national issues. This committee provides a platform for constructive dialogue, consensus-building, and collaborative policy-making that reflects India's pluralistic democratic values and addresses the nation's most pressing challenges.",
+			registrationLink:"https://unstop.com/conferences/birla-institute-of-technology-model-united-nations-bitmun24-bit-mesra-ranchi-839214?lb=DP1Hq0R&utm_medium=Share&utm_source=shortUrl"
+		},
+		{
+			image: "/images/Events/UNGAD.webp",
+			title: "Niti Aayog",
+			description: "Niti Aayog serves as India's premier policy think tank, fostering cooperative federalism and driving sustainable development. Delegates will engage with transformative ideas, strategic planning, and innovative solutions to accelerate India's growth while ensuring inclusive and equitable progress across all sectors of society.",
 			registrationLink:"https://unstop.com/conferences/birla-institute-of-technology-model-united-nations-bitmun24-bit-mesra-ranchi-839214?lb=DP1Hq0R&utm_medium=Share&utm_source=shortUrl"
 		}
 	];

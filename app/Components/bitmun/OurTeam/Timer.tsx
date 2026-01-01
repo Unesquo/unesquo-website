@@ -23,7 +23,7 @@ const Container = styled(motion.div)`
   padding: 1rem;
   margin-top: 8rem;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 768px) {
     min-height: 20vh;
     padding: 0.5rem;
   }
@@ -45,7 +45,7 @@ const TimerCard = styled(motion.div)`
   width: 100vw;
   max-width: 100vw;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 768px) {
     padding: 1rem;
     width: 95vw;
     gap: 1rem;
@@ -88,7 +88,7 @@ const TimeUnitsContainer = styled.div`
   gap: 1.5rem;
   justify-content: center;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 768px) {
     gap: 0.75rem;
   }
 `;
@@ -104,12 +104,8 @@ const TimeUnit = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease;
 
-  @media (max-width: 1280px) {
-    padding: 10px;
-  }
-
   @media (max-width: 768px) {
-    padding: 3.25px;
+    padding: 10px;
   }
 `;
 
@@ -125,14 +121,9 @@ const TimeValue = styled(motion.div)`
   font-weight: bold;
   font-family: monospace;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 768px) {
     font-size: 2.5rem;
     min-width: 70px;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 2rem;
-    min-width: 60px;
   }
 `;
 
@@ -230,7 +221,7 @@ const Timer = ({ targetTime }: TimerProps) => {
     return (
       <Container>
         <TimerCard>
-          <TimerExpired>Event Has Ended! See You Next Time!</TimerExpired>
+          <TimerExpired>Event Has Started!</TimerExpired>
         </TimerCard>
       </Container>
     );
@@ -244,10 +235,10 @@ const Timer = ({ targetTime }: TimerProps) => {
     >
       <TimerCard>
         <Title variants={itemVariants}>
-          BITMUN 25'
+          BITMUN'26
         </Title>
         <Subtitle variants={itemVariants}>
-          Think globally act diplomatically
+          Overcoming Differences
         </Subtitle>
         <TimeUnitsContainer>
           {timeUnits.map(({ value, label }) => (
